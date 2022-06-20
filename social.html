@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      background:blue;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .center {
+     background-color:black;
+      width: 4vw;
+      height: 28.3vh;
+      padding-top: 1px;
+      margin-top: 30%;
+      margin-left: 30%;
+    }
+
+    .social {
+      padding-left: 3px;
+    }
+
+    li {
+      color: rgba(237, 224, 213, 0.6);  
+      list-style-type: none;
+      width: 50px;
+      height: 50px;
+      border: 1px solid rgba(234, 229, 225, 0.4);
+      border-radius: 45px;
+      cursor: pointer;
+      margin-bottom: 20px;
+      transition: ease .3s;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .social:hover>li {
+      opacity: 0.5;
+    }
+
+    .social:hover>li:hover {
+      opacity: 7;
+    }
+  </style>
+</head>
+
+<body>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <div class="center">
+    <div id="social-test">
+      <ul class="social">
+        <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+        <li><i class="fa fa-twitter" aria-hidden="true"></i>
+        </li>
+        <li><i class="fa fa-linkedin" aria-hidden="true"></i>
+        </li>
+      </ul>
+    </div>
+  </div>
+</body>
+
+</html>
